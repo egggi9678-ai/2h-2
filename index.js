@@ -1,4 +1,4 @@
-Const express = require('express');
+const express = require('express');
 const { Client, Events } = require('@altkit/discord');
 const { joinVoiceChannel, VoiceConnectionStatus, entersState } = require('@discordjs/voice');
 
